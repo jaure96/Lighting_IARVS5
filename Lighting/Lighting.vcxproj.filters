@@ -13,11 +13,15 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Main.c">
-      <Filter>Archivos de origen</Filter>
-    </ClCompile>
+    <Filter Include="Archivos de origen\userWrittenCode">
+      <UniqueIdentifier>{e91b989e-1569-4460-89ff-1dab2e2be239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\coderGenerated">
+      <UniqueIdentifier>{ea31bfbe-ff48-4a18-8392-b928d8fd9705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\selectedAPI">
+      <UniqueIdentifier>{2f4b3126-5aa8-445b-91f2-44304d93ec1a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\README.md" />
@@ -26,5 +30,10 @@
     <Image Include="..\design.png">
       <Filter>Archivos de recursos</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\userWrittenCode\Main.c">
+      <Filter>Archivos de origen\userWrittenCode</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
