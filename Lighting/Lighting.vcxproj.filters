@@ -19,8 +19,8 @@
     <Filter Include="Archivos de origen\coderGenerated">
       <UniqueIdentifier>{ea31bfbe-ff48-4a18-8392-b928d8fd9705}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Archivos de origen\selectedAPI">
-      <UniqueIdentifier>{2f4b3126-5aa8-445b-91f2-44304d93ec1a}</UniqueIdentifier>
+    <Filter Include="Archivos de origen\userWrittenCode\eventQueue">
+      <UniqueIdentifier>{13c427ab-1287-451f-9473-cccf808b5ed6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -35,5 +35,51 @@
     <ClCompile Include="src\userWrittenCode\Main.c">
       <Filter>Archivos de origen\userWrittenCode</Filter>
     </ClCompile>
+    <ClCompile Include="src\userWrittenCode\eventQueue\simpleEventHandler.c">
+      <Filter>Archivos de origen\userWrittenCode\eventQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="src\userWrittenCode\lightingActions.c">
+      <Filter>Archivos de origen\userWrittenCode</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coderGenerated\LightingSystem.c">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coderGenerated\LightingSystemData.c">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coderGenerated\SEMLibB.c">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\userWrittenCode\eventQueue\eventHandler.h">
+      <Filter>Archivos de origen\userWrittenCode\eventQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\userWrittenCode\eventQueue\simpleEventHandler.h">
+      <Filter>Archivos de origen\userWrittenCode\eventQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coderGenerated\LightingSystem.h">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coderGenerated\LightingSystemAction.h">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coderGenerated\LightingSystemData.h">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coderGenerated\SEMBDef.h">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coderGenerated\SEMLibB.h">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coderGenerated\SEMTypes.h">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="src\coderGenerated\coderCofig.txt">
+      <Filter>Archivos de origen\coderGenerated</Filter>
+    </Text>
   </ItemGroup>
 </Project>
