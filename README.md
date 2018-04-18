@@ -12,7 +12,7 @@ How to run
 -----------------------
 1. Download the hole proyect in ZIP and decompress.
 2. Open the Visual Studio proyect by clicking the **Lighting.sln** file and compile it.
-3. After that, you´ll be able to run the simulation by executing **Lighting\x64\Debug\Lighting.exe**.
+3. After that, you´ll be able to run the simulation by executing **Debug\Lighting.exe**.
 
 State machine Daigram
 -----------------------
